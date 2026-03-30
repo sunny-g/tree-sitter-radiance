@@ -1,0 +1,40 @@
+{
+  "grammars": [
+    {
+      "name": "radiance",
+      "camelcase": "Radiance",
+      "scope": "source.rad",
+      "path": ".",
+      "file-types": [
+        "rad"
+      ],
+      "highlights": [
+        "queries/highlights.scm"
+      ],
+      "injections": [
+        "queries/injections.scm"
+      ],
+      "tags": [
+        "queries/tags.scm"
+      ],
+      "injection-regex": "rad"
+    }
+  ],
+  "metadata": {
+    "version": "0.0.1",
+    "license": "MIT",
+    "description": "R'/Radiance grammar for tree-sitter",
+    "authors": [
+      {
+        "name": "Sunny G",
+        "email": ""
+      }
+    ],
+    "links": {
+      "repository": "https://github.com/sunny-g/radiant.computer"
+    }
+  },
+  "bindings": {
+    "rust": true
+  }
+}
